@@ -11,7 +11,7 @@ AgentPostmortem is a public registry of documented AI-agent failures at [agentpo
 
 | Repo | What it is |
 | --- | --- |
-| [agent-postmortem](https://github.com/AgentPostmortem/agent-postmortem) | The public case registry itself, [www.agentpostmortem.com](https://www.agentpostmortem.com/) |
+| [agentpostmortem](https://github.com/AgentPostmortem/agentpostmortem) | The public case registry itself, [www.agentpostmortem.com](https://www.agentpostmortem.com/) |
 | [Casebook-MCP](https://github.com/AgentPostmortem/Casebook-MCP) | Remote MCP server exposing the registry as tools any agent can query, plus an investigator agent that drafts postmortems from real precedents |
 | [Casebook-Chat](https://github.com/AgentPostmortem/Casebook-Chat) | Streaming chat UI that searches the live registry over MCP and answers with cited case IDs |
 
@@ -57,6 +57,6 @@ AgentPostmortem is a public registry of documented AI-agent failures at [agentpo
 
 Browse every repo at [github.com/orgs/AgentPostmortem/repositories](https://github.com/orgs/AgentPostmortem/repositories) and filter a repo's issues by the `good first issue` label.
 
-Two contributions are always welcome. First, a new documented case in [agent-postmortem](https://github.com/AgentPostmortem/agent-postmortem): a real, sourced agent failure written up in the registry format. Second, a new detection rule for [MCP-audit](https://github.com/AgentPostmortem/MCP-audit) or [Skill-audit](https://github.com/AgentPostmortem/Skill-audit), ideally with a fixture that fails before the rule and passes after.
+Two contributions are always welcome. First, a new documented case in [agentpostmortem](https://github.com/AgentPostmortem/agentpostmortem): a real, sourced agent failure written up in the registry format. Second, a new detection rule for [MCP-audit](https://github.com/AgentPostmortem/MCP-audit) or [Skill-audit](https://github.com/AgentPostmortem/Skill-audit), ideally with a fixture that fails before the rule and passes after.
 
 Read the `CONTRIBUTING.md` in the repo you are changing (for example [MCP-audit/CONTRIBUTING.md](https://github.com/AgentPostmortem/MCP-audit/blob/main/CONTRIBUTING.md)) before opening a pull request.
