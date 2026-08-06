@@ -1,5 +1,4 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AgentPostmortem/.github/main/profile/logo.svg" alt="AgentPostmortem" width="112" height="112">
 </p>
 
 <h1 align="center">AgentPostmortem</h1>
