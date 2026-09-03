@@ -3,9 +3,11 @@
 
 <h1 align="center">AgentPostmortem</h1>
 
-<p align="center">Every AI agent failure, documented. Plus the verification, eval, and security tooling built from it.</p>
+<p align="center">Ops agents, installed with guardrails. We've seen every way agents fail, so ours don't.</p>
 
-AgentPostmortem is a public registry of documented AI-agent failures at [agentpostmortem.com](https://www.agentpostmortem.com/). The rest of this org is the tooling that comes out of reading those cases: scanners that catch unsafe agent and MCP configurations before install, regression harnesses that fail the build when a prompt gets worse, context and token profilers, and reference agent implementations.
+AgentPostmortem installs support and ops agents for teams: [Resolvd](https://github.com/AgentPostmortem/Resolvd) triages tickets and executes guarded actions against live systems, [Webhands](https://github.com/AgentPostmortem/Webhands) runs portal ops with screenshot proof. One workflow live in 14 days: [book the pilot](https://agentpostmortem.com/pilot).
+
+Underneath is a public registry of 65+ documented AI-agent failures at [agentpostmortem.com](https://www.agentpostmortem.com/), plus the verification, eval, and security tooling built from reading those cases: scoped tool access, audit trails, human approvals, and a unit-tested policy engine.
 
 ## Registry
 
@@ -49,7 +51,7 @@ AgentPostmortem is a public registry of documented AI-agent failures at [agentpo
 | [Bridgekit](https://github.com/AgentPostmortem/Bridgekit) | Scoped MCP server exposing company tools with per-client permission boundaries and an append-only audit log |
 | [Webhands](https://github.com/AgentPostmortem/Webhands) | Computer-use agent for tools with no usable API, refuses write actions without explicit confirmation |
 | [Greenlite](https://github.com/AgentPostmortem/Greenlite) | Mobile approval cockpit for AI agents, one-tap approve or deny routed back to the agent |
-| [Resolvd](https://github.com/AgentPostmortem/Resolvd) | End-to-end inbox operator that triages, drafts, and acts within policy on inbound support messages |
+| [Resolvd](https://github.com/AgentPostmortem/Resolvd) | Support-inbox operator that triages tickets and executes guarded actions against live systems (Shopify orders and refunds), escalating the rest |
 | [RelayG](https://github.com/AgentPostmortem/RelayG) | Support ticket triage agent as a LangGraph state machine with a human-in-the-loop interrupt and SQLite checkpointing |
 | [Tenantq](https://github.com/AgentPostmortem/Tenantq) | Multi-tenant hybrid-search reference on Qdrant, dense plus sparse RRF fusion with Recall@K and p95 benchmarks |
 
