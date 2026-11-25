@@ -7,7 +7,7 @@ pip install agentpostmortem-bench
 apm run --scenario all --agent all
 ```
 
-- **25 incident scenarios**: duplicate charges after a lost response, false "done" after a tool error, repeated work after a crash, stale and lying tool data, retry storms.
+- **50 incident scenarios** across 11 simulated services and 10 fault modes: duplicate charges after a lost response, late commits, silent errors, false "done" after a tool failure, repeated work after a crash, stale and lying tool data, retry storms.
 - **Real frameworks, no API key**: LangGraph, OpenAI Agents SDK, Claude Agent SDK and Hermes Agent run against a scripted model, so results are free and reproducible.
 - **Any agent over MCP**: `apm serve` exposes the scenario's services as tools for Claude Code, Cursor or your own agent.
 
